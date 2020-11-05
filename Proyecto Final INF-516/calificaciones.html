@@ -1,200 +1,182 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8" />
+        <title>Calificaciones</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <head>
-    <meta charset="utf-8" />
-    <title>Calificaciones</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="" />
+        <meta property="og:type" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="" />
 
-    <meta property="og:title" content="" />
-    <meta property="og:type" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
+        <link rel="manifest" href="site.webmanifest" />
+        <link rel="apple-touch-icon" href="icon.png" />
+        <!-- Place favicon.ico in the root directory -->
 
-    <link rel="manifest" href="site.webmanifest" />
-    <link rel="apple-touch-icon" href="icon.png" />
-    <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/cali.css" />
 
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/cali.css" />
+        <meta name="theme-color" content="#fafafa" />
 
-    <meta name="theme-color" content="#fafafa" />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
 
-    <!-- jQuery and JS bundle w/ Popper.js -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <!-- jQuery and JS bundle w/ Popper.js -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css" />
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css" />
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
 
-    <!-- (Optional) Latest compiled and minified JavaScript translation files -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/i18n/defaults-*.min.js"></script>
+        <!-- (Optional) Latest compiled and minified JavaScript translation files -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/i18n/defaults-*.min.js"></script>
 
-    <style>
-        table thead tr th {
-            color: #6b078a;
-        }
-        .row-main {
-            color: #393f40;
-        }
-        caption {
-            caption-side: top;
-            font-size: 20px;
-            background-color: #393f40;
-            padding-left: 10px;
-            color: white;
-        }
-    </style>
-</head>
+        <style>
+            table thead tr th {
+                color: #6b078a;
+            }
+            .row-main {
+                color: #474b4f;
+                background-color: #e1eef5;
+                font-size: 15px;
+                line-height: 10px;
+            }
+            a {
+                color: blue;
+            }
+        </style>
+    </head>
 
-<body>
-  <!-- Add your site or application content here -->
-  <header class="site-header inicio">
-      <div class="contenedor contenido-header">
-          <div class="barra">
-              <a href="index.html">
-                  <img src="img/logo.svg" alt="Logotipo" />
-              </a>
-          </div>
-
-          <h1>Plataforma de aprendizaje virtual</h1>
-      </div>
-      <!--contenedor-->
-      <div class="contenedor">
-          <nav id="navegacion" class="navegacion navegacion2">
-              <a href="index.html">Inicio</a>
-              <a href="cursos.html">Cursos</a>
-              <a href="perfil.html">Perfil</a>
-          </nav>
-      </div>
-  </header>
-
-  <div class="contenedor contenido">
-      <main class="contenido-modulo">
-          <div class="container-fluid">
-              <div class="row">
-                <div class="col-10">
-                  <h2>Calificaciones</h2>
+    <body>
+        <!-- Add your site or application content here -->
+        <header class="site-header inicio">
+            <div class="contenedor contenido-header">
+                <div class="barra">
+                    <a href="index.html">
+                        <img src="img/logo.svg" alt="Logotipo" />
+                    </a>
                 </div>
-                <div class="col">
-                  <button type="button" class="btn btn-secondary">Imprimir</button>
+
+                <h1>Plataforma de aprendizaje virtual</h1>
+            </div>
+            <!--contenedor-->
+            <div class="contenedor">
+                <nav id="navegacion" class="navegacion navegacion2">
+                    <a href="index.html">Inicio</a>
+                    <a href="cursos.html">Cursos</a>
+                    <a href="perfil.html">Perfil</a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="contenedor contenido">
+            <main class="contenido-modulo">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-10">
+                            <h2>Calificaciones</h2>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-secondary">Imprimir</button>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <table class="table table-hover">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Asignación</th>
+                                    <th scope="col">Fecha</th>
+                                    <th scope="col">Rango</th>
+                                    <th scope="col">Estado</th>
+                                    <th scope="col">Calificación</th>
+                                    <th scope="col">Retroalimentación</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th colspan="6" class="bg-light">
+                                        <i class="fas fa-tasks"></i>
+                                        Análisis y Diseño de Sistema
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th><a href="#" class="text-secondary">Introducción Expm. #1</a></th>
+                                    <td>2020-10-08</td>
+                                    <td>0-10</td>
+                                    <td><span class="badge badge-primary">Finalizado</span></td>
+                                    <td><span class="badge badge-success">8,75</span></td>
+                                    <td>Muy Bien</td>
+                                </tr>
+                                <tr>
+                                    <th><a href="#" class="text-secondary">Informe exp. #1</a></th>
+                                    <td>2020-10-15</td>
+                                    <td>0-10</td>
+                                    <td><span class="badge badge-warning">En Proceso</span></td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr>
+                                    <th><a href="#" class="text-secondary">Informe exp. #1</a></th>
+                                    <td>2020-10-15</td>
+                                    <td>0-26</td>
+                                    <td><span class="badge badge-primary">Finalizado</span></td>
+                                    <td><span class="badge badge-success">24,97</span></td>
+                                    <td>Excelente</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="6" class="bg-light">
+                                        <i class="fas fa-tasks"></i>
+                                        Matemáticas discretas
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th><a href="#" class="text-secondary">Introducción Expm. #1</a></th>
+                                    <td>2020-10-08</td>
+                                    <td>0-10</td>
+                                    <td><span class="badge badge-primary">Finalizado</span></td>
+                                    <td><span class="badge badge-success">8,75</span></td>
+                                    <td>Muy Bien</td>
+                                </tr>
+                                <tr>
+                                    <th><a href="#" class="text-secondary">Informe exp. #1</a></th>
+                                    <td>2020-10-15</td>
+                                    <td>0-10</td>
+                                    <td><span class="badge badge-warning">En Proceso</span></td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-              </div>
+            </main>
 
-              <!-- <div class="row">
-          <div class="col-6">
-            <select class="form-control form-control-sm selectpicker" data-live-search="true">
-              <option value="1">Lab de Física para Informática</option>
-              <option value="2">Análisis y Diseño de Sistema</option>
-              <option value="3">Lenguaje C</option>
-              <option value="5">Lab Lenguaje de Program III</option>
-              <option value="6">Inteligencia Artificial</option>
-              <option value="7">Investigación de Operaciones</option>
-            </select>
-          </div>
-        </div> -->
-              <br />
-              <div class="row">
-                  <table class="table table-hover">
-                      <caption>
-                          Lab de Física para Informática
-                      </caption>
-                      <thead>
-                          <tr>
-                              <th scope="col">Asignación</th>
-                              <th scope="col">Fecha</th>
-                              <th scope="col">Rango</th>
-                              <th scope="col">Estado</th>
-                              <th scope="col">Calificación</th>
-                              <th scope="col">Retroalimentación</th>
-                          </tr>
-                      </thead>
-                      <tbody>
-                          <tr>
-                              <th scope="row" class="row-main">Introducción Expm. #1</th>
-                              <td>2020-10-08</td>
-                              <td>0-10</td>
-                              <td><span class="badge badge-primary">Finalizado</span></td>
-                              <td><span class="badge badge-success">8,75</span></td>
-                              <td>Muy Bien</td>
-                          </tr>
-                          <tr>
-                              <th scope="row">Informe exp.#1</th>
-                              <td>2020-10-15</td>
-                              <td>0-10</td>
-                              <td><span class="badge badge-warning">En Proceso</span></td>
-                              <td>--</td>
-                              <td>--</td>
-                          </tr>
-                      </tbody>
-                  </table>
-                  <table class="table table-hover">
-                    <caption>
-                      Análisis y Diseño de Sistema
-                    </caption>
-                    <thead>
-                        <tr>
-                            <th scope="col">Asignación</th>
-                            <th scope="col">Fecha</th>
-                            <th scope="col">Rango</th>
-                            <th scope="col">Estado</th>
-                            <th scope="col">Calificación</th>
-                            <th scope="col">Retroalimentación</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row" class="row-main">Introducción Expm. #1</th>
-                            <td>2020-10-08</td>
-                            <td>0-10</td>
-                            <td><span class="badge badge-primary">Finalizado</span></td>
-                            <td><span class="badge badge-success">8,75</span></td>
-                            <td>Muy Bien</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Informe exp.#1</th>
-                            <td>2020-10-15</td>
-                            <td>0-10</td>
-                            <td><span class="badge badge-warning">En Proceso</span></td>
-                            <td>--</td>
-                            <td>--</td>
-                        </tr>
-                    </tbody>
-                </table>
-              </div>
-          </div>
-      </main>
-      <aside class="sidebar">
-          <ul>
-              <li><a href="calificaciones.html">Calificaciones</a></li>
-              <li><a href="participantes.html">Participantes</a></li>
-              <li><a href="tareas.html">Tareas</a></li>
-              <li><a href="calendarios.html">Calendarios</a></li>
-              <li><a href="foros.html">Foros</a></li>
-              <li><a href="mensajes.html">Mensajería</a></li>
-          </ul>
-      </aside>
-  </div>
+            <aside class="sidebar">
+                <ul>
+                    <li><a href="calificaciones.html">Calificaciones</a></li>
+                    <li><a href="participantes.html">Participantes</a></li>
+                    <li><a href="tareas.html">Tareas</a></li>
+                    <li><a href="calendarios.html">Calendarios</a></li>
+                    <li><a href="foros.html">Foros</a></li>
+                    <li><a href="mensajes.html">Mensajería</a></li>
+                </ul>
+            </aside>
+        </div>
 
-  <footer class="site-footer seccion">
-      <div class="contenedor contenedor-footer">
-          <p class="copyright">Todos los derechos reservados ©</p>
-      </div>
-  </footer>
-
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-  <script src="https://www.google-analytics.com/analytics.js" async=""></script>
-</body>
-
+        <footer class="site-footer seccion">
+            <div class="contenedor contenedor-footer">
+                <p class="copyright">Todos los derechos reservados ©</p>
+            </div>
+        </footer>
+    </body>
 </html>
