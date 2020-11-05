@@ -1,0 +1,12 @@
+table thead tr th {
+    color: #6b078a;
+}
+.row-main {
+    color: #474b4f;
+    background-color: #e1eef5;
+    font-size: 15px;
+    line-height: 10px;
+}
+a {
+    color: blue;
+}

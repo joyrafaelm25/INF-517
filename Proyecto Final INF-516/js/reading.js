@@ -1,3 +1,4 @@
+// Leer el archivo Json y crear la tabla dinamicamente.
 function appendBody() {
  
     let mainRow = `
@@ -42,4 +43,14 @@ function appendBody() {
             $('#tb_cali').find('tbody').append(row);
         }
     }
+}
+
+// Imprimer la tabla de las calificaciones.
+function printData()
+{
+   var divToPrint=document.getElementById("tb_cali");
+   newWin= window.open("","","width=900,height=700");
+   newWin.document.write(divToPrint.outerHTML);
+   newWin.print();
+   newWin.close();
 }
