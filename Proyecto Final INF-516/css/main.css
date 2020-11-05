@@ -225,7 +225,7 @@ h4 {
 }
 /** Contenido**/
 .contenido {
-  height: 800px;
+  height: auto;
   margin-top: 40px;
   padding-top: 5px;
   max-width: 1200px;
